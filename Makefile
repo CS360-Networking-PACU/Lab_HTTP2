@@ -7,17 +7,17 @@
 # Purpose:    
 #############################################################################
 
-all: bin bin/main
+all: bin bin/httpget_large
 
 bin:
 	mkdir -p bin
 
-bin/main: bin/main.o
-	gcc -o bin/main -g -Wall bin/main.o
+bin/httpget_large: bin/httpget_large.o
+	gcc -o bin/httpget_large -g -Wall bin/httpget_large.o
 
-bin/main.o: bin src/main.c
-	gcc -c -o bin/main.o -g -Wall src/main.c
+bin/httpget_large.o: bin src/httpget_large.c
+	gcc -c -o bin/httpget_large.o -g -Wall src/httpget_large.c
 
 
 clean:
-	rm -f bin/main bin/*.o
+	rm -f bin/httpget_large bin/*.o
