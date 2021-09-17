@@ -93,7 +93,7 @@ Steps:
         max+1 times using the same persistent connection.  Call sleep(1) before sending each 
         request so you do not overload the server or have your IP banned. What happens to the 
         connection?  How many responses return correctly? How does the Keep-Alive: field differ 
-        in all these requests? Use /chadd/cs360f18/LabHttp.html for this test.
+        in all these requests? Use /chadd/cs360f21/LabHttp.html for this test.
         Commit this code to GitHub
         
     11.1  Publish a Release on GitHub.  
