@@ -85,7 +85,9 @@ Steps:
 
     10. In your the first HTTP response, what is the max value for Keep-Alive: ?
     
-    10.1 Publish a Release on GitHub.  See Moodle video! Tag: v1.0 Release Tag: 'Multiple File Read'
+    10.1 Publish a Release on GitHub.  See Moodle video! 
+         Tag: v1.0 
+         Release Title: 'Multiple File Read'
 
     11. Edit your code to take the first file listed on the command line and request that file 
         max+1 times using the same persistent connection.  Call sleep(1) before sending each 
@@ -94,7 +96,9 @@ Steps:
         in all these requests? Use /chadd/cs360f18/LabHttp.html for this test.
         Commit this code to GitHub
         
-    11.1  Publish a Release on GitHub.  Tag: v1.1 Release Tag: 'One File Read Many Times'
+    11.1  Publish a Release on GitHub.  
+          Tag: v1.1 
+          Release Title: 'One File Read Many Times'
 
 ```
        
